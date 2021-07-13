@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="uft-8">
+<title>201912061 김은서</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/cart.css">
+</head>
+<body>
+<header>
+  <section id="top">
+    <a id="logo" href="index.html"> <img src="img/logo.gif"> </a>
+	<div id="search">
+	   <div id="search_title">SEARCH</div>
+	   <div id="search_form"> <input type="text"> </div>
+	   <div id="search_button"> <img sec="img/btn_search.gif"></div>
+	</div>
+	<nav id="top_menu">
+	  <ul>
+	    <li class="green"><a href="#">로그인 </a></li>
+		<li class="green"><a href="#">회원가입 </a></li>
+		<li><a href="#">마이페이지 </a></li>
+		<li><a href="#">이용안내 </a></li>
+		<li><a href="#">고객센터 </a></li>
+	  </ul>
+	</nav> <!--top_menu-->
+	<div class="clear"></div>
+  </section> <!--section top-->
+  <nav id="main_menu">
+    <ul>
+	  <li><a href="detail.html">상세 페이지</a><li>
+	  <li><a href="cart.html">장바구니</a><li>
+	  <li><a href="#">고객 갤러리</a><li>
+	  <li><a href="#">주문배송</a><li>
+	  <li><a href="#">자주하는 질문</a><li>
+	</ul>
+  </nav>
+</header>
+aside#left{
+    width:215px;
+    float:left;
+    margin-top:15px;
+	font-weight:bold;
+}
+asid#left #cat_title{
+   padding:12px;
+   background-color:#96c11f;
+   color:#ffffff;
+   text-align:center;
+   }
+   aside#left li {
+      color:#666666;
+	  padding:7px 0 7px 30px;
+	  border-left:solid 1px #cccccc;
+	  border-right:solid 1px #cccccc;
+	  border-bottom:solid 1px #cccccc;
+}
+aside#left#customer {
+   width:213px;
+   height:100px;
+   margin-top:20px;
+   border:solid 1px #cccccc;
+   background-color:#ffffff;
+}
+aside#left#customer img{
+   margin:5px 0 0 5px;
+}
+<section id ="right">
+	<h2 id="cart_title">
+		<span>SHOPPING CART</span> 장바구니
+	</h2>
+	<div id="process">
+		img src="img/process.png">
+	. </div>
+	
+	<table>
+		<tr class="title">
+			<th>선택</th>
+			<th>상품명</th>
+			<th>판매가</th>
+			<th>수량</th>
+			<th>적립금</th>
+			<th>배송비</th>
+			<th>합계</th>
+		</tr>
+		<tr class="items">
+			<td class="col1"><input type="checkbox"></td>
+			<td class="col2">
+			 sjdy-005 펄실크 벽지 / 가로 125cm x 세로 90cm
+			</td>
+			<td class=col3">19,000원</td>
+			<td class="col4">
+			  <input type="checkbox">
+			  <button>수정</button>
+			</td>
+			<td class=col5">100원</td>
+			<td class=col6">3,000원</td>
+			<td class=col7">22,000원</td>
+		</tr>
+		<tr class="items">
+			<td class="col1"><input type="checkbox"></td>
+			<td class="col2">
+			 sjdy-005 펄실크 벽지 / 가로 125cm x 세로 90cm
+			</td>
+			<td class=col3">19,000원</td>
+			<td class="col4">
+			  <input type="checkbox">
+			  <button>수정</button>
+			</td>
+			<td class=col5">100원</td>
+			<td class=col6">3,000원</td>
+			<td class=col7">22,000원</td>
+		</tr>
+		<tr class="order_status_box">
+			<td colspan="7">
+				<div class="order_status">
+				  <p><span>고객님의 총 주문 합계 금액입니다</span></p>
+				  <div>
+					<ul>
+						<li class="col1">[상품 구매 금액]:</li>
+						<li class ="col2">19,000원</li>
+					</ul>
+					<ul>
+						<li class="col1">배송비:</li>
+						<li class ="col2">3,000원</li>
+					</ul>
+					<ul>
+						<li class="col1"><span>총 주문 합계 금액</span></li>
+						<li class ="col2"><span>19,000원</span></li>
+					</ul>
+				  </div>
+				</div> <!--order_status-->
+			</td>
+		</tr>
+	</table>
+	<ul id="order_buttons">
+		<li><img scr="img/order_button1.gif"></li>
+		<li><img scr="img/order_button2.gif"></li>
+		<li><img scr="img/order_button3.gif"></li>
+		<li><img scr="img/order_button4.gif"></li>
+		<li><img scr="img/order_button5.gif"></li>
+		<li><img scr="img/order_button6.gif"></li>
+	</ul>
+</section> <!--section right-->
